@@ -21,6 +21,7 @@ make %{?_smp_mflags}
 %make_install
 
 %files
+%license COPYING
 %defattr(-,root,root,-)
 %{_libdir}/pkgconfig/pthread-stubs.pc
 
